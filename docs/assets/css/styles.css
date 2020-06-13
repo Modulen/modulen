@@ -2,12 +2,10 @@
 
   /* Changes mobile logo to specified image */
   .img-fluid {
-
     content:
-        url("https://i.ibb.co/FBT4tgM/cel.jpg");
+      url("https://i.ibb.co/FBT4tgM/cel.jpg");
   }
 }
-
 
 /* ~ Error 404 ~ */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
@@ -33,12 +31,12 @@
     font-size: 150px;
   }
 
-  #error404{
+  #error404 {
     font-size: 70px;
   }
 }
 
-@media only screen and (max-width: 400px)  {
+@media only screen and (max-width: 400px) {
   .container i {
     font-size: 90px;
   }
@@ -47,19 +45,19 @@
     margin-top: 70px;
   }
 
-  h1{
+  h1 {
     font-size: 20px;
   }
 
-  h2{
+  h2 {
     font-size: 18px;
   }
 
-  h3{
+  h3 {
     font-size: 15px;
   }
 
-  #error404{
+  #error404 {
     font-size: 40px;
   }
 }
@@ -73,19 +71,19 @@
     margin-top: 60px;
   }
 
-  h1{
+  h1 {
     font-size: 20px;
   }
 
-  h2{
+  h2 {
     font-size: 18px;
   }
 
-  h3{
+  h3 {
     font-size: 15px;
   }
 
-  #error404{
+  #error404 {
     font-size: 40px;
   }
 }
