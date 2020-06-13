@@ -7,3 +7,85 @@
         url("https://i.ibb.co/FBT4tgM/cel.jpg");
   }
 }
+
+
+/* ~ Error 404 ~ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container i {
+  font-size: 200px;
+}
+
+#error404 {
+  font-size: 100px;
+  color: #00B7D4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .container i {
+    font-size: 150px;
+  }
+
+  #error404{
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 400px)  {
+  .container i {
+    font-size: 90px;
+  }
+
+  .container {
+    margin-top: 200px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  h3{
+    font-size: 15px;
+  }
+
+  #error404{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (orientation:landscape) {
+  .container i {
+    font-size: 60px;
+  }
+
+  .container {
+    margin-top: 60px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  h3{
+    font-size: 15px;
+  }
+
+  #error404{
+    font-size: 40px;
+  }
+}
