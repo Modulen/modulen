@@ -7784,18 +7784,7 @@ img.user-image {
     margin-left: 5px;
     margin-right: 5px
 }
-.path-tag .tag-management-box li a.edittag {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/i/settings)
-}
-.path-tag .tag-management-box li a.flagasinappropriate {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/i/flagged)
-}
-.path-tag .tag-management-box li a.removefrommyinterests {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/t/delete)
-}
-.path-tag .tag-management-box li a.addtomyinterests {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/t/add)
-}
+
 .path-tag .tag-management-box li a {
     background-repeat: no-repeat;
     background-position: left;
@@ -10845,13 +10834,7 @@ span.editinstructions {
 .coursebox {
     padding: .5rem
 }
-.coursebox>.info>.coursename a {
-    display: block;
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/i/course);
-    background-repeat: no-repeat;
-    padding-left: 21px;
-    background-position: left .2em
-}
+
 .coursebox>.info>.coursename,
 .coursebox .content .teachers,
 .coursebox .content .courseimage,
@@ -10915,9 +10898,7 @@ span.editinstructions {
     margin: 15px 5px 5px;
     padding: 0
 }
-.coursebox.remotehost>.info>.categoryname a {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/i/mnethost)
-}
+
 .coursebox.collapsed {
     margin-bottom: 0
 }
@@ -10957,20 +10938,9 @@ span.editinstructions {
     padding-right: 2em;
     font-size: 75%
 }
-.course_category_tree .category>.info>.categoryname {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/t/collapsed_empty);
-    background-repeat: no-repeat;
-    padding: 2px 18px;
-    margin: 3px;
-    background-position: center left
-}
-.course_category_tree .category.with_children>.info>.categoryname {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/t/expanded);
-    cursor: pointer
-}
-.course_category_tree .category.with_children.collapsed>.info>.categoryname {
-    background-image: url(/moodle/theme/image.php/remui/core/1590559863/t/collapsed)
-}
+
+
+
 .course_category_tree .category.collapsed>.content {
     display: none
 }
@@ -14099,51 +14069,9 @@ textarea[data-auto-rows] {
     margin-left: 1.0715rem;
     max-width: 30rem
 }
-.has-danger .editor_atto_content.form-control,
-.has-danger input.editor_atto_content[type="text"],
-.has-danger .editor_atto_content.form-control-danger,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo,
-.has-danger .editor_atto_content.maintenancewarning.error {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23d9534f\' viewBox=\'-2 -2 7 7\'%3E%3Cpath stroke=\'%23d9534f\' d=\'M0 0l3 3m0-3L0 3\'/%3E%3Ccircle r=\'.5\'/%3E%3Ccircle cx=\'3\' r=\'.5\'/%3E%3Ccircle cy=\'3\' r=\'.5\'/%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'.5\'/%3E%3C/svg%3E");
-    padding-right: 3rem;
-    background-repeat: no-repeat;
-    background-position: center right 1rem;
-    -webkit-background-size: 1.5rem;
-    background-size: 1.5rem
-}
-.has-danger .editor_atto_content.form-control .form-control-feedback,
-.has-danger input.editor_atto_content[type="text"] .form-control-feedback,
-.has-danger .editor_atto_content.form-control .form-control-label,
-.has-danger input.editor_atto_content[type="text"] .form-control-label,
-.has-danger .editor_atto_content.form-control .form-check-label,
-.has-danger input.editor_atto_content[type="text"] .form-check-label,
-.has-danger .editor_atto_content.form-control .form-check-inline,
-.has-danger input.editor_atto_content[type="text"] .form-check-inline,
-.has-danger .editor_atto_content.form-control .custom-control,
-.has-danger input.editor_atto_content[type="text"] .custom-control,
-.has-danger .editor_atto_content.form-control-danger .form-control-feedback,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control-feedback,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control-feedback,
-.has-danger .editor_atto_content.maintenancewarning.error .form-control-feedback,
-.has-danger .editor_atto_content.form-control-danger .form-control-label,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-control-label,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-control-label,
-.has-danger .editor_atto_content.maintenancewarning.error .form-control-label,
-.has-danger .editor_atto_content.form-control-danger .form-check-label,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-check-label,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-check-label,
-.has-danger .editor_atto_content.maintenancewarning.error .form-check-label,
-.has-danger .editor_atto_content.form-control-danger .form-check-inline,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .form-check-inline,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .form-check-inline,
-.has-danger .editor_atto_content.maintenancewarning.error .form-check-inline,
-.has-danger .editor_atto_content.form-control-danger .custom-control,
-.has-danger #page-admin-mnet-peers .mform .editor_atto_content.deletedhostinfo .custom-control,
-#page-admin-mnet-peers .mform .has-danger .editor_atto_content.deletedhostinfo .custom-control,
-.has-danger .editor_atto_content.maintenancewarning.error .custom-control {
-    color: #ff4c52
-}
+
+
+
 .has-danger .editor_atto_content.form-control .form-control,
 .has-danger input.editor_atto_content[type="text"] .form-control,
 .has-danger .editor_atto_content.form-control input[type="text"],
@@ -22218,7 +22146,7 @@ ul.hidden-links li:hover {
 }
 #page-login-index,
 #page-login-signup {
-    background-image: url(//www.lacaixetamusical.com/wp-content/uploads/2020/03/portada.jpg);
+    background-image: url("https://i.ibb.co/sJNxMSB/portada.jpg");
     position: fixed;
     top: 0;
     left: 0;
