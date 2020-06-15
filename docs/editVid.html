@@ -251,7 +251,7 @@
               <a>
                 <i style="margin-left: 20px;">
                   <h4>Link de video:
-                </i><input type="text" name="link">
+                </i><input type="text" name="link" placeholder="Ingrese el link aquí..." accept="text/plain" value="https://youtu.be/m3dIRYvFKjg">
               </a>
               <br>
               <div style="border-top: black;">
@@ -262,13 +262,14 @@
 
                         <li class="nav-item active">
 
-                          <video class="video-fluid z-depth-1" autoplay loop controls muted style="border: black solid 3px;">
-                            <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-                          </video>
+                          <div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
+                            <!-- Copy & Pasted from YouTube -->
+                            <iframe style="margin-top: 10px; border:solid; color: rgb(0, 123, 255)" width="410" height="250" src="https://www.youtube.com/embed/m3dIRYvFKjg?list=PLX7Mz9szGMOdtVpjQjDcYo-VIdnqVQXKo" frameborder="2" allowfullscreen></iframe>
+                          </div>
                         </li>
                       </ul>
                       <div>
-                        <div style="margin-right: 90px">
+                        <div style="margin-right: 85px">
 
                           <center>
                             <h4>

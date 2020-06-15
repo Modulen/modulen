@@ -5,6 +5,15 @@
   height: auto;
 }
 
+
+main {
+  background: white;
+  height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 #btn-izq {
   text-align: middle;
   margin-left: 10px;
