@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Modulen | Inicio</title>
+  <title>Modulen | Administrador</title>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
+
   <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
   <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="assets/css/master.css">
@@ -20,6 +22,10 @@
     .tablas {
       border-collapse: separate;
       border-spacing: 15px;
+    }
+
+    .sinBorde td {
+      border: 0;
     }
   </style>
 </head>
@@ -90,7 +96,7 @@
                 <img src="assets/img/Ade.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
-                    Adelso Guerra
+                    Adelso Abisai
                     <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                   </h3>
                   <p class="text-sm">Tengo una pregunta</p>
@@ -130,7 +136,6 @@
               </font>
             </span>
           </a>
-
           <ul class="dropdown-menu">
             <!-- User image -->
             <li class="user-header">
@@ -150,7 +155,6 @@
                 <a href="https://modulenschool.ga" id="btn-der" class="btn btn-default btn-flat">Salir</a>
               </a>
             </div>
-
           </ul>
         </li>
       </ul>
@@ -186,16 +190,16 @@
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+                       with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="#" class="nav-link active">
+              <a href="https://modulenschool.ga/inicioDocente.html" class="nav-link">
                 <i class="nav-icon fas fa-home"></i>
                 <p>
                   Inicio
                 </p>
               </a>
             <li class="nav-item">
-              <a href="https://modulenschool.ga/administrador.html" class="nav-link">
+              <a href="#" class="nav-link active">
                 <i class="fas fa-server nav-icon"></i>
                 <p>Administrador</p>
               </a>
@@ -223,6 +227,9 @@
               </a>
             </li>
           </ul>
+          </li>
+
+          </ul>
         </nav>
         <!-- /.sidebar-menu -->
       </div>
@@ -236,23 +243,8 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h2 class="m-0 text-dark">Número de cursos (4)</h2>
+              <h3 class="m-0 text-dark">En Linea(12) / Inscritos(32)</h3>
             </div>
-            <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right">
-                <!-- SEARCH FORM -->
-                <form class="form-inline ml-3">
-                  <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Buscar" aria-label="Search">
-                    <div class="input-group-append">
-                      <button class="btn btn-navbar" type="submit">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </ol>
-            </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
       </div>
@@ -260,32 +252,34 @@
 
       <!-- Main content -->
       <table border="2" class="tablas" style="margin-left: 20px; margin-right: 20px; width: 97%; margin-top: 20px; margin-bottom: 20px;">
+        <tr class="sinBorde">
+          <td>
+            <h3>Curso(Nombre)</h3>
+          </td>
+        </tr>
         <tr>
           <td>
             <nav class="navbar navbar-expand-lg">
               <div class="container">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <h5><strong>1 - Primer Curso</strong></h5>
-                    <h5>Inscritos (32/40)</h5>
+                    <h4><i class="fa fa-file-text" style="margin-right: 15px;"></i>Primer Clase (Tema)</h4>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                   <div class="btn-ground" role="group">
-                    <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
-                      <i class="fa fa-briefcase"></i>
+                    <a href="https://modulenschool.ga/editDoc.html" class="navbar-brand" align="center" style="color: black;">
+                      <i class="fa fa-briefcase" aria-hidden="true"></i>
                       <h6>Administrar</h6>
                     </a>
-                    <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                      <i class="fa fa-user"></i>
-                      <h6>Estudiantes</h6>
+                    <a class="navbar-brand" align="center" style="color: black;">
+                      <i class="fa fa-trash"></i>
+                      <h6>Borrar</h6>
                     </a>
                   </div>
                 </form>
               </div>
             </nav>
-          </td>
-
     </div>
     </td>
     </tr>
@@ -295,19 +289,19 @@
           <div class="container">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <h5><strong>2 - Segundo Curso</strong></h5>
-                <h5>Inscritos (20/20)</h5>
+                <h4><i class="fa fa-youtube-play" style="margin-right: 15px;"></i>Complemento para la
+                  primer clase</h4>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <div class="btn-ground" role="group">
-                <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
+                <a href="https://modulenschool.ga/editVid.html" class="navbar-brand" align="center" style="color: black;">
                   <i class="fa fa-briefcase"></i>
                   <h6>Administrar</h6>
                 </a>
-                <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                  <i class="fa fa-user"></i>
-                  <h6>Estudiantes</h6>
+                <a class="navbar-brand" align="center" style="color: black;">
+                  <i class="fa fa-trash"></i>
+                  <h6>borrar</h6>
                 </a>
               </div>
             </form>
@@ -322,19 +316,18 @@
         <div class="container">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <h5><strong>3 - Tercer Curso</strong></h5>
-              <h5>Inscritos (29/29)</h5>
+              <h4><i class="fa fa-file-text" style="margin-right: 15px;"></i>Segunda Clase (Tema)</h4>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <div class="btn-ground" role="group">
-              <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
+              <a href="https://modulenschool.ga/editDoc2.html" class="navbar-brand" align="center" style="color: black;">
                 <i class="fa fa-briefcase"></i>
                 <h6>Administrar</h6>
               </a>
-              <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-user"></i>
-                <h6>Estudiantes</h6>
+              <a class="navbar-brand" align="center" style="color: black;">
+                <i class="fa fa-trash"></i>
+                <h6>Borrar</h6>
               </a>
             </div>
           </form>
@@ -349,19 +342,19 @@
         <div class="container">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <h5><strong>4 - Cuarto Curso</strong></h5>
-              <h5>Inscritos (10/19)</h5>
+              <h4><i class="fa fa-folder-open" style="margin-right: 15px;"></i>Primera actividad de ciclo
+              </h4>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <div class="btn-ground" role="group">
-              <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
+              <a href="https://modulenschool.ga/editZip.html" class="navbar-brand" align="center" style="color: black;">
                 <i class="fa fa-briefcase"></i>
                 <h6>Administrar</h6>
               </a>
-              <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-user"></i>
-                <h6>Estudiantes</h6>
+              <a class="navbar-brand" align="center" style="color: black;">
+                <i class="fa fa-trash"></i>
+                <h6>Borrar</h6>
               </a>
             </div>
           </form>
@@ -370,8 +363,29 @@
       </div>
     </td>
   </tr>
+  <tr class="sinBorde">
+    <td>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="https://modulenschool.ga/inicioDocente.html"><button type="button" class="btn btn-primary">Guardar</button></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="btn-ground" role="group">
+              <a href="https://modulenschool.ga/inicioDocente.html">
+                <button type="button" class="btn btn-primary">Volver</button>
+              </a>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </td>
+  </tr>
   </table>
   </div>
+
   <!-- Main Footer -->
   <footer class="main-footer">
     <!-- To the right -->

@@ -1,4 +1,9 @@
 /*Botones - Dropdown perfil*/
+.video-fluid {
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+}
 
 #btn-izq {
   text-align: middle;

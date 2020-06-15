@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Modulen | Inicio</title>
+  <title>Modulen | Administrador</title>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
+
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
@@ -126,11 +127,10 @@
             <img src="assets/img/ing.png" class="user-image" alt="Imagen de usuario">
             <span class="hidden-xs">
               <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">Ing. José Emerson</font>
+                <font style="vertical-align: inherit;">Ing.José Emerson</font>
               </font>
             </span>
           </a>
-
           <ul class="dropdown-menu">
             <!-- User image -->
             <li class="user-header">
@@ -150,7 +150,6 @@
                 <a href="https://modulenschool.ga" id="btn-der" class="btn btn-default btn-flat">Salir</a>
               </a>
             </div>
-
           </ul>
         </li>
       </ul>
@@ -188,7 +187,7 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="#" class="nav-link active">
+              <a href="https://modulenschool.ga/inicioDocente.html" class="nav-link">
                 <i class="nav-icon fas fa-home"></i>
                 <p>
                   Inicio
@@ -207,7 +206,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="https://modulenschool.ga/adminAlumno.html" class="nav-link">
+              <a href="#" class="nav-link active">
                 <i class="fa fa-users nav-icon"></i>
                 <p>
                   Alumnos
@@ -222,6 +221,7 @@
                 </p>
               </a>
             </li>
+
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
@@ -229,28 +229,19 @@
       <!-- /.sidebar -->
     </aside>
 
-    <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+
       <!-- Content Header (Page header) -->
       <div class="content-header">
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h2 class="m-0 text-dark">Número de cursos (4)</h2>
-            </div>
+              <h1 class="m-0 text-dark">Primer Curso</h1>
+            </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <!-- SEARCH FORM -->
-                <form class="form-inline ml-3">
-                  <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Buscar" aria-label="Search">
-                    <div class="input-group-append">
-                      <button class="btn btn-navbar" type="submit">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <li class="breadcrumb-item active">Primer Curso</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -259,136 +250,132 @@
       <!-- /.content-header -->
 
       <!-- Main content -->
-      <table border="2" class="tablas" style="margin-left: 20px; margin-right: 20px; width: 97%; margin-top: 20px; margin-bottom: 20px;">
-        <tr>
-          <td>
-            <nav class="navbar navbar-expand-lg">
-              <div class="container">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <h5><strong>1 - Primer Curso</strong></h5>
-                    <h5>Inscritos (32/40)</h5>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <div class="btn-ground" role="group">
-                    <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
-                      <i class="fa fa-briefcase"></i>
-                      <h6>Administrar</h6>
-                    </a>
-                    <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                      <i class="fa fa-user"></i>
-                      <h6>Estudiantes</h6>
-                    </a>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card card-primary card-outline">
+                <div class="card-header">
+                  <div>
+                    <h1 class="card-title" style="margin-right: 0px; font-size: 20px;color:rgb(0, 123, 255)"><strong>Media Grupo:<strong></h1>
+                    <input type="text" style="height: 25px; width: 50px; margin-left:10px; margin-right: px; ">
                   </div>
-                </form>
-              </div>
-            </nav>
-          </td>
+                  <hr>
+                  <h3 class="card-title" style="margin-right: 70px;">
+                    <i class="fas fa-users mr-1"></i>
+                    <strong>Estudiantes esperados:</strong> 40
+                  </h3>
+                  <h3 class="card-title" style="margin-right: 70px;">
+                    <i class="fas fa-edit mr-1"></i>
+                    <strong>Estudiantes inscritos:</strong> 32
+                  </h3>
+                  <h3 class="card-title" style="margin-right: 70px;">
+                    <i class="fas fa-circle-notch mr-1"></i>
+                    <strong>En línea:</strong> 12
+                  </h3>
+                </div>
+                <div class="table-wrapper-scroll-y my-custom-scrollbar" style="display: block; position:relative; height: 300px; overflow: auto; margin-top: 5px; margin-left: 20px;">
+                  <table class="table " style="width: 1000px;">
+                    <thead id="encabezado" style="color: white">
+                      <tr style="text-align: center">
+                        <th scope="col" style="text-align: left;" class="text-uppercase">Nombre</th>
+                        <th scope="col" class="text-uppercase">Acción</th>
+                        <th scope="col" class="text-uppercase">Actividades</th>
+                        <th scope="col" class="text-uppercase">Asistencia</th>
+                        <th scope="col" class="text-uppercase">Promedio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>5/6</td>
+                        <td>15</td>
+                        <td>10/10</td>
+                      </tr>
+                      <tr style="text-align: center">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>6/6</td>
+                        <td>20</td>
+                        <td>7/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>5/6</td>
+                        <td>30</td>
+                        <td>8/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>5/6</td>
+                        <td>15</td>
+                        <td>10/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>6/6</td>
+                        <td>20</td>
+                        <td>7/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>4/6</td>
+                        <td>45</td>
+                        <td>9/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>4/6</td>
+                        <td>45</td>
+                        <td>9/10</td>
+                      </tr>
+                      <tr style="text-align: center;">
+                        <th scope="row" style="text-align: left;">Nombre de usuario</th>
+                        <td><input type="radio"> Dar de baja</td>
+                        <td>6/6</td>
+                        <td>20</td>
+                        <td>7/10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
-    </div>
-    </td>
-    </tr>
-    <tr>
-      <td>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <h5><strong>2 - Segundo Curso</strong></h5>
-                <h5>Inscritos (20/20)</h5>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <div class="btn-ground" role="group">
-                <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
-                  <i class="fa fa-briefcase"></i>
-                  <h6>Administrar</h6>
-                </a>
-                <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                  <i class="fa fa-user"></i>
-                  <h6>Estudiantes</h6>
-                </a>
+                <div class="timeline-footer" style="margin-bottom:10px; margin-top:20px; margin-left: 25px">
+                  <a href="#" class="btn btn-success btn">Aplicar</a>
+                  <a href="#" class="btn btn-danger btn mr-4">Cancelar</a>
+                  <a href="https://modulenschool.ga/inicioDocente.html" class="btn btn-primary btn">Volver</a>
+                </div>
+
               </div>
-            </form>
+            </div>
           </div>
-        </nav>
-  </div>
-  </td>
-  </tr>
-  <tr>
-    <td>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <h5><strong>3 - Tercer Curso</strong></h5>
-              <h5>Inscritos (29/29)</h5>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="btn-ground" role="group">
-              <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-briefcase"></i>
-                <h6>Administrar</h6>
-              </a>
-              <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-user"></i>
-                <h6>Estudiantes</h6>
-              </a>
-            </div>
-          </form>
         </div>
-      </nav>
       </div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <h5><strong>4 - Cuarto Curso</strong></h5>
-              <h5>Inscritos (10/19)</h5>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="btn-ground" role="group">
-              <a href="https://modulenschool.ga/administrador.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-briefcase"></i>
-                <h6>Administrar</h6>
-              </a>
-              <a href="https://modulenschool.ga/adminAlumno.html" class="navbar-brand" align="center" style="color: black;">
-                <i class="fa fa-user"></i>
-                <h6>Estudiantes</h6>
-              </a>
-            </div>
-          </form>
-        </div>
-      </nav>
-      </div>
-    </td>
-  </tr>
-  </table>
-  </div>
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Por una educación mejor
     </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2020 <a href="https://modulenschool.ga">Modulen</a>.</strong> All rights reserved.
-  </footer>
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- To the right -->
+      <div class="float-right d-none d-sm-inline">
+        Por una educación mejor
+      </div>
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2020 <a href="https://modulenschool.ga">Modulen</a>.</strong> All rights reserved.
+    </footer>
 
-  <!-- REQUIRED SCRIPTS -->
-  <!-- jQuery -->
-  <script src="assets/plugins/jquery/jquery.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Master.js -->
-  <script src="assets/js/master.min.js"></script>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Master.js -->
+    <script src="assets/js/master.min.js"></script>
+
 </body>
 
 </html>
